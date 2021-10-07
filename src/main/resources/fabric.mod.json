@@ -17,13 +17,9 @@
   "icon": "assets/mcdoomenchant/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "mcdoomenchantint"
-    ]
-  },
+  "entrypoints": {},
   "mixins": [
-    "mcdoomenchant.mixins.json"
+    "mcdoomenchantable.mixins.json"
   ],
 
   "depends": {
@@ -31,6 +27,6 @@
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16",
-    "doom":"4.0.17"
+    "doom":">=4.0.17"
   }
 }
