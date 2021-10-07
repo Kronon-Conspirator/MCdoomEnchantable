@@ -6,7 +6,10 @@
   "mixins": [
     "AxeMarauderItemMixin",
     "SwordCrucibleItemMixin",
-    "DoomBaseItemMixin"
+    "DarkLordCrucibleItemMixin",
+    "DoomBaseItemMixin",
+    "ChainsawMixin",
+    "ChainsawAnimatedMixin"
   ],
   "client": [],
   "injectors": {
