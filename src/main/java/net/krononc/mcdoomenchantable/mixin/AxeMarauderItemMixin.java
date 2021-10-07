@@ -34,7 +34,7 @@ import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.world.World;
 
 @Mixin(value =  AxeMarauderItem.class)
-public class AxeMarauderItemMixin extends AxeItem{
+public abstract class AxeMarauderItemMixin extends AxeItem{
 
 	public AxeMarauderItemMixin() {
 		super(DoomTier.DOOM_HIGHTEIR, 36, -2.4F,

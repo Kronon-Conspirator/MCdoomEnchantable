@@ -47,7 +47,7 @@ import software.bernie.geckolib3.util.GeckoLibUtil;
 
 
 @Mixin(value =  ChainsawAnimated.class)
-public class ChainsawAnimatedMixin extends Item implements IAnimatable {
+public abstract class ChainsawAnimatedMixin extends Item implements IAnimatable {
 
 	public AnimationFactory factory = new AnimationFactory(this);
 	private String controllerName = "controller";
@@ -56,7 +56,7 @@ public class ChainsawAnimatedMixin extends Item implements IAnimatable {
 	public AnimationFactory getFactory() {
 		return this.factory;
 	}
-	
+
 	public ChainsawAnimatedMixin() {
 		super(new Item.Settings().group(DoomMod.DoomWeaponItemGroup).maxCount(1).maxDamage(601));
 	}

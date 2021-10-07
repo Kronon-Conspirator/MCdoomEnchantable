@@ -47,7 +47,7 @@ import software.bernie.geckolib3.util.GeckoLibUtil;
 
 
 @Mixin(value =  Chainsaw.class)
-public class ChainsawMixin extends Item {
+public abstract class ChainsawMixin extends Item {
 
 	public ChainsawMixin() {
 		super(new Item.Settings().group(DoomMod.DoomWeaponItemGroup).maxCount(1).maxDamage(601));
